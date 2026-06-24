@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r ins.txt
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 9999
 
 CMD ["python", "app.py"]
